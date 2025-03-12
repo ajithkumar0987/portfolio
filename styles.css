@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg, #f4f4f4, #e0e0e0);
+    color: #333;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(45deg, #ff6b6b, #ffcc00);
+    padding: 15px 30px;
+    position: fixed;
+    width: 98%;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #222;
+}
+
+.intro {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(60deg, #222, #444);
+    color: white;
+    margin-top: 60px;
+    border-bottom: 5px solid #ffcc00;
+}
+
+.highlight {
+    color: #ffcc00;
+    font-weight: bold;
+}
+
+.about {
+    padding: 50px 20px;
+    background-color: white;
+    text-align: center;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.about-text {
+    width: 60%;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.about-img {
+    width: 40%;
+}
+
+.about-img img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.projects {
+    padding: 50px 20px;
+    text-align: center;
+    background: linear-gradient(180deg, white, #f8f9fa);
+}
+
+.project-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.project {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
+
+.project img, .project video {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    margin-top: 10px;
+    font-size: 22px;
+    color: #333;
+}
+
+.project p {
+    font-size: 16px;
+    color: #666;
+}
+
+.project-links {
+    margin-top: 10px;
+}
+
+.project-links a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(45deg, #333, #555);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+.project-links a:hover {
+    background: linear-gradient(45deg, #ff6b6b, #ffcc00);
+    color: #222;
+}
